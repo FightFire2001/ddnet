@@ -41,7 +41,7 @@ class CHttpRequest : public IJob
 {
 	enum class REQUEST
 	{
-		GET=0,
+		GET = 0,
 		HEAD,
 		POST,
 		POST_JSON,
@@ -129,7 +129,17 @@ public:
 		Header(aHeader);
 	}
 
-	const char *Dest() { if(m_WriteToFile) { return m_aDest; } else { return nullptr; } }
+	const char *Dest()
+	{
+		if(m_WriteToFile)
+		{
+			return m_aDest;
+		}
+		else
+		{
+			return nullptr;
+		}
+	}
 
 	double Current() const { return m_Current.load(std::memory_order_relaxed); }
 	double Size() const { return m_Size.load(std::memory_order_relaxed); }
