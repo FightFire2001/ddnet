@@ -1375,28 +1375,28 @@ Can't find a Tutorial server
 == 无法找到教学服务器
 
 Toggle to edit your dummy settings
-== 
+== 编辑分身设置
 
 Choose default eyes when joining a server
-== 
+== 加入服务器时的表情
 
 Allows maps to render with more detail
-== 
+== 允许地图提供更多细节
 
 When you cross the start line, show a ghost tee replicating the movements of your best time
-== 
+== 当你经过起点线时，显示一个影子来展现你完成最佳时间的行动轨迹
 
 Opacity
-== 
+== 不透明度
 
 Quads are used for background decoration
-== 
+== 四边形图片通常用于装饰背景
 
 Tries to predict other entities to give a feel of low latency
-== 
+== 预测其他实体的动作以感受更低的延迟
 
 Super
-== 
+== 超级模式
 
 Team %d
-== 
+== 队伍 %d
